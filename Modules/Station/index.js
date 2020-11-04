@@ -30,7 +30,7 @@ module.exports = function ({
 								return;
 							}
 
-							console.log ({ html });
+							// console.log ({ html });
 
 							res.statusCode = 200;
 							res.write (html);
